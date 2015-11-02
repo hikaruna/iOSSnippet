@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1744E8121BE6132C00381207 /* TabItemA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744E8111BE6132C00381207 /* TabItemA.swift */; };
 		17CB4C5D1BE54E87002C9EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB4C5C1BE54E87002C9EE7 /* AppDelegate.swift */; };
 		17CB4C5F1BE54E87002C9EE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB4C5E1BE54E87002C9EE7 /* ViewController.swift */; };
 		17CB4C621BE54E87002C9EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CB4C601BE54E87002C9EE7 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		17CB4C671BE54E87002C9EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CB4C651BE54E87002C9EE7 /* LaunchScreen.storyboard */; };
 		17CB4C721BE54E88002C9EE7 /* iOSSnippetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB4C711BE54E88002C9EE7 /* iOSSnippetTests.swift */; };
 		17CB4C7D1BE54E89002C9EE7 /* iOSSnippetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB4C7C1BE54E89002C9EE7 /* iOSSnippetUITests.swift */; };
+		17CB4C8B1BE54EBE002C9EE7 /* ModalNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB4C8A1BE54EBE002C9EE7 /* ModalNavigationController.swift */; };
+		17CB4C8D1BE54F01002C9EE7 /* CrossDissolveNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB4C8C1BE54F01002C9EE7 /* CrossDissolveNavigationController.swift */; };
+		17CB4C8F1BE54F22002C9EE7 /* CrossDissolveTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB4C8E1BE54F22002C9EE7 /* CrossDissolveTabBarController.swift */; };
+		17CB4C931BE54F55002C9EE7 /* FlipHorizonNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB4C921BE54F55002C9EE7 /* FlipHorizonNavigationController.swift */; };
+		17CB4C951BE54F69002C9EE7 /* FlipHorizonTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB4C941BE54F69002C9EE7 /* FlipHorizonTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1744E8111BE6132C00381207 /* TabItemA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItemA.swift; sourceTree = "<group>"; };
 		17CB4C591BE54E87002C9EE7 /* iOSSnippet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSnippet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CB4C5C1BE54E87002C9EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17CB4C5E1BE54E87002C9EE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		17CB4C781BE54E88002C9EE7 /* iOSSnippetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSnippetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CB4C7C1BE54E89002C9EE7 /* iOSSnippetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSnippetUITests.swift; sourceTree = "<group>"; };
 		17CB4C7E1BE54E89002C9EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CB4C8A1BE54EBE002C9EE7 /* ModalNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalNavigationController.swift; sourceTree = "<group>"; };
+		17CB4C8C1BE54F01002C9EE7 /* CrossDissolveNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossDissolveNavigationController.swift; sourceTree = "<group>"; };
+		17CB4C8E1BE54F22002C9EE7 /* CrossDissolveTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossDissolveTabBarController.swift; sourceTree = "<group>"; };
+		17CB4C921BE54F55002C9EE7 /* FlipHorizonNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipHorizonNavigationController.swift; sourceTree = "<group>"; };
+		17CB4C941BE54F69002C9EE7 /* FlipHorizonTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipHorizonTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				17CB4C631BE54E87002C9EE7 /* Assets.xcassets */,
 				17CB4C651BE54E87002C9EE7 /* LaunchScreen.storyboard */,
 				17CB4C681BE54E87002C9EE7 /* Info.plist */,
+				17CB4C8A1BE54EBE002C9EE7 /* ModalNavigationController.swift */,
+				17CB4C8C1BE54F01002C9EE7 /* CrossDissolveNavigationController.swift */,
+				17CB4C921BE54F55002C9EE7 /* FlipHorizonNavigationController.swift */,
+				17CB4C8E1BE54F22002C9EE7 /* CrossDissolveTabBarController.swift */,
+				17CB4C941BE54F69002C9EE7 /* FlipHorizonTabBarController.swift */,
+				1744E8111BE6132C00381207 /* TabItemA.swift */,
 			);
 			path = iOSSnippet;
 			sourceTree = "<group>";
@@ -256,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1744E8121BE6132C00381207 /* TabItemA.swift in Sources */,
+				17CB4C8F1BE54F22002C9EE7 /* CrossDissolveTabBarController.swift in Sources */,
+				17CB4C951BE54F69002C9EE7 /* FlipHorizonTabBarController.swift in Sources */,
 				17CB4C5F1BE54E87002C9EE7 /* ViewController.swift in Sources */,
+				17CB4C8D1BE54F01002C9EE7 /* CrossDissolveNavigationController.swift in Sources */,
 				17CB4C5D1BE54E87002C9EE7 /* AppDelegate.swift in Sources */,
+				17CB4C931BE54F55002C9EE7 /* FlipHorizonNavigationController.swift in Sources */,
+				17CB4C8B1BE54EBE002C9EE7 /* ModalNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +506,7 @@
 				17CB4C831BE54E89002C9EE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17CB4C841BE54E89002C9EE7 /* Build configuration list for PBXNativeTarget "iOSSnippetTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +515,7 @@
 				17CB4C861BE54E89002C9EE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17CB4C871BE54E89002C9EE7 /* Build configuration list for PBXNativeTarget "iOSSnippetUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +524,7 @@
 				17CB4C891BE54E89002C9EE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
