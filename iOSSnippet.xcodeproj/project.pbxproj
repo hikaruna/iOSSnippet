@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1744E8121BE6132C00381207 /* TabItemA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744E8111BE6132C00381207 /* TabItemA.swift */; };
+		17A806B51BEA0DAC00550CB3 /* NestedNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A806B41BEA0DAC00550CB3 /* NestedNavigationController.swift */; };
 		17CB4C5D1BE54E87002C9EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB4C5C1BE54E87002C9EE7 /* AppDelegate.swift */; };
 		17CB4C5F1BE54E87002C9EE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB4C5E1BE54E87002C9EE7 /* ViewController.swift */; };
 		17CB4C621BE54E87002C9EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CB4C601BE54E87002C9EE7 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		1744E8111BE6132C00381207 /* TabItemA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItemA.swift; sourceTree = "<group>"; };
+		17A806B41BEA0DAC00550CB3 /* NestedNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedNavigationController.swift; sourceTree = "<group>"; };
 		17CB4C591BE54E87002C9EE7 /* iOSSnippet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSnippet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CB4C5C1BE54E87002C9EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17CB4C5E1BE54E87002C9EE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				17CB4C8E1BE54F22002C9EE7 /* CrossDissolveTabBarController.swift */,
 				17CB4C941BE54F69002C9EE7 /* FlipHorizonTabBarController.swift */,
 				1744E8111BE6132C00381207 /* TabItemA.swift */,
+				17A806B41BEA0DAC00550CB3 /* NestedNavigationController.swift */,
 			);
 			path = iOSSnippet;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				17CB4C951BE54F69002C9EE7 /* FlipHorizonTabBarController.swift in Sources */,
 				17CB4C5F1BE54E87002C9EE7 /* ViewController.swift in Sources */,
 				17CB4C8D1BE54F01002C9EE7 /* CrossDissolveNavigationController.swift in Sources */,
+				17A806B51BEA0DAC00550CB3 /* NestedNavigationController.swift in Sources */,
 				17CB4C5D1BE54E87002C9EE7 /* AppDelegate.swift in Sources */,
 				17CB4C931BE54F55002C9EE7 /* FlipHorizonNavigationController.swift in Sources */,
 				17CB4C8B1BE54EBE002C9EE7 /* ModalNavigationController.swift in Sources */,
